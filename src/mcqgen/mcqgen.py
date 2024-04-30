@@ -10,7 +10,7 @@ load_dotenv()
 key=os.getenv("OPENAI_API_KEY")
 
 
-llm=ChatOpenAI(openai_api_key=key,model="gpt-3.5-turbo",temperature=0.9)
+llm=ChatOpenAI(openai_api_key=key,model="gpt-3.5-turbo-0125",temperature=0.9)
 
 mcq_gen_prompt=PromptTemplate(
     input_variables=["text","number","tone","response_json"],

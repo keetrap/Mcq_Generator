@@ -2,5 +2,3 @@ myenv
 .env
 exp/data.txt
 logs
-src/__pycache__
-src/mcqgen/__pycache__/*

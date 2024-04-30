@@ -9,6 +9,7 @@ import streamlit as st
 
 with open('response.json','r') as f:
     RESPONSE_JSON=json.load(f)
+    
 flag=False
 
 st.title("MCQ Generator Using GPT-3 and Langchain 🦜️🔗")
